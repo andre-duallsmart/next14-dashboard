@@ -2,6 +2,7 @@
 
 // Inter é uma fonte variável
 import { Inter } from 'next/font/google';
+import { Akshar } from 'next/font/google';
 
 // Lusitana não é uma fonte variável
 import { Lusitana } from 'next/font/google';
@@ -24,3 +25,7 @@ export const lusitana = Lusitana({
     display: 'swap'
 });
 
+export const akshar = Akshar({
+    subsets: ['latin'],
+    display: 'swap'
+});
